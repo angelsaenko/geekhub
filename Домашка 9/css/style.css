@@ -1,0 +1,645 @@
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+html, body, header, footer, main, ul, li, h1, h2, h3, h4 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    line-height: 1;
+
+}
+
+h1, h2, h3, h4 {
+    word-wrap: break-word;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+header {
+    background-color: #edeff1;
+}
+
+header .container {
+    padding: 50px 45px 45px 45px;
+
+}
+
+header .container nav {
+    max-width: 1165px;
+    width: 100%;
+    margin: 0 auto;
+}
+header .container nav .logo {
+    float: left;
+}
+header .container nav .logo img {
+    width: 157px;
+    background-color: #edeff1;
+}
+
+
+header .container nav .menu ul {
+    display: inline-block;
+    float: right;
+}
+
+header .container nav .menu ul li {
+    float: left;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 56px;
+    color: #31353e;
+
+}
+
+header .container nav .menu ul li a {
+    padding: 0 20px;
+    color: #31353e;
+}
+
+header .container nav .menu li a:hover, header .container nav .menu li a.active {
+    background-color: #dd4b2b;
+    border-radius: 24px;
+    color: #edeff1;
+    padding: 17px 21px;
+}
+@media screen and (max-width: 900px) {
+    header .container nav .logo,
+    header .container nav .menu ul,
+    header .container nav .menu ul li {
+        float: none;
+        width: 100%;
+    }
+    header .container nav .menu ul li {
+        text-align: center;
+    }
+    header .container nav .logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    header .container{
+        padding-bottom: 20px;
+    }
+}
+/*@media screen and (max-width: 740px) {*/
+    /*header .container nav .menu ul {*/
+        /*float: none;*/
+        /*width: 10%;*/
+    /*}*/
+/*}*/
+
+/*HEADER END*/
+/*Integer*/
+
+main .integer {
+    background: url("../images/photo-1416453072034-c8dbfa2856b5.png") no-repeat;
+    background-size: cover;
+}
+
+main .integer .container {
+    padding: 490px 45px 140px 45px;
+
+}
+
+main .integer .container .title {
+    text-align: center;
+}
+
+main .integer .container h1 {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-family: "Roboto Slab", serif;
+    font-size: 72px;
+    font-weight: 300;
+    color: white;
+
+}
+
+main .integer .container h2 {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    font-family: "Roboto Slab", serif;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+
+}
+
+main .integer .container .food-elem {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+
+}
+
+main .integer .container .food-elem .wrap {
+    width: 33%;
+    padding: 0 15px;
+    margin-top: 122px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+main .integer .container .food-elem img {
+    width: 148px;
+    margin: 0 auto;
+}
+
+main .integer .container .food-elem .wrap h4 {
+    margin-top: 30px;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    color: white;
+}
+
+main .integer .container .food-elem .wrap .descr {
+    margin: 30px auto 0 auto;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 305px;
+    color: white;
+
+}
+
+main .integer .container .food-elem-button {
+    margin: 80px auto 0 auto;
+    display: block;
+    text-align: center;
+
+}
+
+main .integer .container .food-elem-button a {
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    padding: 19px 60px 21px 63px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #612316;
+
+}
+@media screen and (max-width: 980px) {
+    main .integer .container .food-elem .wrap{
+        width: 100%;
+    }
+    main .integer .container{
+        padding-bottom:80px; ;
+    }
+
+}
+
+/*Integer END*/
+
+/*OUR NEWS*/
+
+main .our-news {
+    background-color: #edeff1;
+}
+
+main .our-news .container {
+    padding: 80px 45px 115px 45px;
+
+}
+
+main .our-news .container h3 {
+    color: #31353e;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+main .our-news .container .our-news-food-elem {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+main .our-news .container .our-news-food-elem .wrap {
+    width: 33%;
+    margin-top: 85px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+
+}
+
+main .our-news .container .our-news-food-elem .wrap img {
+    width: 371px;
+    margin: 0 auto;
+
+}
+
+main .our-news .container .our-news-food-elem .wrap .signature {
+    max-width: 295px;
+    margin: 0 auto;
+}
+
+main .our-news .container .our-news-food-elem .wrap h4 {
+    margin-top: 40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #31353e;
+    text-align: center;
+}
+
+main .our-news .container .our-news-food-elem .wrap .descr {
+    margin-top: 10px;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #31353e;
+    line-height: 1.5;
+
+}
+
+main .our-news .container .our-news-food-elem .wrap .button {
+    margin: 40px auto 0 auto;
+    display: block;
+    text-align: center;
+
+
+}
+
+main .our-news .container .our-news-food-elem .wrap .button a {
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+    padding: 19px 60px 21px 63px;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4e5159;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1210px) {
+    main .our-news .container .our-news-food-elem .wrap {
+        width: 100%;
+    }
+    main .our-news .container {
+        padding:40px 50px 50px 50px ;
+
+    }
+    main .our-news .container .our-news-food-elem .wrap{
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    main .our-news .container .our-news-food-elem .wrap img{
+        max-width: 320px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+    /*OUR NEWS END*/
+
+/*OUR NEWS*/
+main .newsletter {
+    background: url("../images/photo-1428660386617-8d277e7deaf3.png") no-repeat;
+    background-size: cover;
+}
+
+main .newsletter .container {
+    padding: 90px 45px 110px 45px;
+
+}
+
+main .newsletter .container h3 {
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+
+main .newsletter .container .descr {
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 535px;
+}
+
+main .newsletter .container .email {
+    max-width: 510px;
+    height: 100%;
+    margin: 45px auto 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+}
+
+/*main .newsletter .container .email form {
+    width: 100%;
+    height: 100%;
+}*/
+
+main .newsletter .container .email form input {
+    border: none;
+    background-color: transparent;
+    outline: 0;
+
+}
+
+main .newsletter .container .email .email-adress {
+    float: left;
+    padding: 20px 20px 21px 36px;
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+
+}
+
+main .newsletter .container .email .sign-up-button {
+    float: right;
+    background-color: white;
+    color: #612316;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 41px;
+    padding: 19px 75px 17px 73px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder {
+    color: #f3f4f6;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+@media screen and (max-width: 565px) {
+    main .newsletter .container .email .sign-up-button {
+        padding: 11px 20px 11px 20px;
+        width: 40%;
+    }
+    main .newsletter .container{
+        padding: 45px;
+    }
+    main .newsletter .container .email .email-adress  {
+        padding: 22px 20px 22px 21px;
+        width: 60%;
+    }
+    main .newsletter .container .email{
+        max-width: 320px;
+    }
+}
+
+/*OUR NEWS END*/
+
+/*product-details"*/
+main .product-details {
+    background-color: #fff;
+
+}
+
+main .product-details .container {
+    padding: 65px 15px 86px 15px;
+}
+
+main .product-details .container .product1, main .product-details .container .product2 {
+    vertical-align: middle;
+    display: block;
+    max-width: 1260px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+main .product-details .container .info {
+    padding: 0 0 0 40px;
+    max-width: 560px;
+    float: left;
+    vertical-align: middle;
+}
+
+main .product-details .container .info h4 {
+    color: #191b29;
+    font-family: "Roboto Slab", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+
+}
+
+main .product-details .container .info .signature {
+    color: #191b29;
+    font-family: "Roboto", serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+main .product-details .container .info .signature .second {
+    margin-top: 20px;
+}
+
+main .product-details .container .info .signature .product-button {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+main .product-details .container .info .signature .product-button a {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 19px 71px 17px 77px;
+    background-color: #dd4b2b;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 27px;
+}
+
+main .product-details .container .product1 img {
+    max-width: 588px;
+    float: right;
+
+}
+
+main .product-details .container .product2 {
+    margin-top: 45px;
+}
+
+
+main .product-details .container .product2 img {
+    max-width: 588px;
+    float: left;
+}
+
+main .product-details .container .product2 .info .signature .product-button a {
+    background-color: #4b4e73
+}
+
+@media screen and (max-width: 1220px) {
+    main .product-details .container .product1 .info,
+    main .product-details .container .product2 .info {
+        float: none;
+        padding: 0;
+    }
+    main .product-details .container .product1 img,
+    main .product-details .container .product2 img {
+        margin: 20px auto 0 auto;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    main .product-details .container .product1 h4,
+    main .product-details .container .product2 h4{
+        margin-top: 20px;
+    }
+    main .product-details .container{
+        text-align: center;
+        padding: 45px ;
+    }
+    main .product-details .container .info {
+        margin: 0 auto;
+    }
+
+}
+@media screen and (max-width: 620px) {
+    main .product-details .container .product1 img, main .product-details .container .product2 img{
+        max-width: 300px;
+        width: 100%;
+        margin: 30px auto 0 auto;
+    }
+}
+
+
+
+/*product-details END"*/
+
+/*FOOTER*/
+footer .orange {
+    background-color: #d75d0e;
+}
+
+footer .orange .container {
+    padding: 100px 45px 85px 45px;
+}
+
+footer .orange .container .list .wrap {
+    width: 33%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .orange .container .list .wrap ul li a {
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+footer .footer-bottom {
+    background: url("../images/photo-1428660386617-8d277e7deaf3.png"), no-repeat;
+    background-size: cover;
+
+}
+
+footer .footer-bottom .container {
+
+    padding: 85px 45px 240px 45px;
+}
+
+footer .footer-bottom .container .footer-bottom-text {
+    color: white;
+    font-family: "Montserrat", serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    max-width: 665px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .footer-bottom .container .footer-bottom-text a {
+    font-weight: 700;
+    color: white;
+}
+@media screen and (max-width: 980px) {
+    footer .orange .container .list .wrap{
+        width: 100%;
+        margin: 15px 0;
+        line-height: 1;
+    }
+    footer .footer-bottom .container{
+        padding-bottom: 80px;
+    }
+    footer .orange .container{
+        padding: 50px 45px 45px 45px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+    main .integer .container {
+        padding-top: 20%;
+
+    }
+    main .integer .container .food-elem .wrap {
+        margin-top: 40px;
+    }
+
+}
+
+
+
