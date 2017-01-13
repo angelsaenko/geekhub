@@ -1,25 +1,24 @@
 .bullets {
   margin: 45px 0 0 0;
 
-}
+  li {
+    display: inline-block;
+    margin: 0 5px;
 
-.bullets li {
-  display: inline-block;
-  margin: 0 5px;
-}
+    a {
+      display: inline-block;
+      width: 9px;
+      height: 9px;
+      border: 1px solid #36a8ff;
+      border-radius: 50%;
+      background-color: #36a8ff;
 
-.bullets li a {
-  display: inline-block;
-  width: 9px;
-  height: 9px;
-  border: 1px solid #36a8ff;
-  border-radius: 50%;
-  background-color: #36a8ff;
+    }
+  }
 
-}
+  li:hover a, li.active a {
+    background-color: #ffaf36;
+    border: 1px solid #ffaf36;
 
-.bullets li:hover a, .bullets li.active a {
-  background-color: #ffaf36;
-  border: 1px solid #ffaf36;
-
+  }
 }

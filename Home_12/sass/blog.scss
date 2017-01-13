@@ -1,10 +1,127 @@
 @import 'pages/blog';
+@import 'components/blog-block';
+@import 'layout/grid';
 
-header{
+header {
   background: url("../images/background-header-blog.png") no-repeat;
-  .header-bottom{
-    .container{
+  background-position: center;
+  .header-bottom {
+    .container {
       padding: 215px 15px 0 15px;
     }
   }
 }
+
+main {
+  .blog-page {
+    .container {
+      padding: 78px 15px 85px 15px;
+    }
+  }
+  .blog-block {
+    margin-top: 35px;
+
+    .photo {
+      margin-top: 25px;
+
+    }
+    .photo {
+      max-width: 1042px;
+      width: 100%;
+
+    }
+    .descr {
+      margin-top: 35px;
+      line-height: 28px;
+    }
+    .share {
+      margin-top: 70px;
+      .text {
+
+        float: left;
+
+      }
+      ul {
+        float: left;
+
+      }
+      li {
+
+        a {
+          display: inline-block;
+          text-decoration: none;
+          line-height: 40px;
+          color: white
+        }
+      }
+      .facebook, .twitter, .google-plus {
+        display: inline-block;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+      }
+
+      .facebook {
+        background-color: #496fa5;
+      }
+      .twitter {
+        background-color: #00baef;
+      }
+      .google-plus {
+        background-color: #eb4125;
+      }
+      .button-contact {
+        float: right;
+        background-color: transparent;
+        a{
+          color: #ffaf36;
+
+        }
+
+      }
+
+    }
+
+  }
+  .slider-pages {
+    text-align: center;
+    margin-top: 40px;;
+    li {
+      width: 51px;
+      border: 2px solid #2a2b2c;
+      background-color: rgba(255, 255, 255, 0);
+      display: inline-block;
+      cursor: pointer;
+
+      a {
+        padding: 15px 0;
+        color: #2a2b2c;
+        font-family: $font-description;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        display: inline-block;
+        box-sizing: border-box;
+        vertical-align: bottom;
+      }
+    }
+    li.active, li:hover {
+      border: 1px solid #ffaf36;
+      a{
+        color: #ffaf36;
+      }
+
+
+    }
+
+  }
+}
+
+
+
+
+
+
+
+
+
