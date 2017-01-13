@@ -1,0 +1,39 @@
+@import '../base/typography';
+
+.user-block {
+  display: inline-block;
+
+  .icon{
+    margin: 0;
+    float: left;
+    overflow: hidden;
+
+  }
+  .icon.rounded {
+    border-radius: 50%;
+  }
+  .info{
+    overflow: hidden;
+    padding-left: 35px;
+    padding-right: 15px;
+    .title{
+      padding-top: 10px;
+      color: #1c1c1c;
+      font-family: $font-title;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .descr{
+      color: #585858;
+      font-family: $font-description;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+    //.text {
+    //}
+  }
+}
+
+

@@ -1,0 +1,40 @@
+@import '../base/typography';
+
+.title-section {
+  h3 {
+    color: #1c1c1c;
+    font-family: $font-title;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  .signature-title {
+    color: #1c1c1c;
+    font-family: Lora, serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+  }
+}
+
+.descr {
+  color: #585858;
+  font-family:$font-description;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.logo-right {
+  background: url("../../images/triangle.png") no-repeat;
+  width: 218px;
+  height: 101px;
+  position: absolute;
+  right: 0;
+  top: -101px;
+}
