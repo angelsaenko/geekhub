@@ -1,1 +1,10 @@
 @import 'pages/blog';
+
+header{
+  background: url("../images/background-header-blog.png") no-repeat;
+  .header-bottom{
+    .container{
+      padding: 215px 15px 0 15px;
+    }
+  }
+}
