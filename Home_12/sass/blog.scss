@@ -73,7 +73,7 @@ main {
       .button-contact {
         float: right;
         background-color: transparent;
-        a{
+        a {
           color: #ffaf36;
 
         }
@@ -107,15 +107,28 @@ main {
     }
     li.active, li:hover {
       border: 1px solid #ffaf36;
-      a{
+      a {
         color: #ffaf36;
       }
-
 
     }
 
   }
+  .sprite {
+    .rocket {
+      width: 58px;
+      height: 58px;
+    }
+    .rocket{
+      background: url("../images/clock.png") no-repeat;
+    }
+    .rocket:hover{
+      background: url("../images/clock.png") no-repeat -62px;
+    }
+
+  }
 }
+
 
 
 
