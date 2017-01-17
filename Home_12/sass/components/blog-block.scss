@@ -1,0 +1,21 @@
+@import '../base/typography';
+
+.blog-block {
+  padding-bottom: 70px;
+  border-bottom: 1px solid #e6e9ee;;
+  .title {
+    padding-top: 10px;
+    color: #1c1c1c;
+    font-family: $font-title;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .signature {
+    color: #757575;;
+    font-family: $font-title-description-blog;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
