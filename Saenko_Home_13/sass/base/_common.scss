@@ -1,0 +1,55 @@
+@import '../base/typography';
+@import '../themes/theme';
+
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: table;
+}
+
+h1 {
+  margin-top: 150px;
+  text-align: center;
+  color: $font-color-base-title;
+  font-family: $font-title;
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+h2 {
+  margin-top: 32px;
+  font-family: $font-text;
+  text-align: center;
+  color: $font-color-base-title;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.title-section {
+  h3 {
+    color: #1c1c1c;
+    font-family: $font-title;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+  .signature-title {
+    color: #1c1c1c;
+    font-family: Lora, serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 30px;
+  }
+}
+.descr {
+  color: #585858;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+

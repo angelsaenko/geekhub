@@ -1,0 +1,31 @@
+@import '../base/typography';
+.button-contact {
+  background-color: #ffaf36;
+  max-width: 151px;
+  margin-top: 61px;
+  border: 2px solid #ffaf36;
+  a {
+    min-width:84px;
+    padding: 19px 34px 19px 33px;
+    display: block;
+    box-sizing: border-box;
+    color: #1c1c1c;
+    font-family: $font-title;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
+@media (max-width: 950px) {
+    .button-contact {
+        margin-top: 30px;
+    }    
+}
+@media (max-width: 550px) {
+  .button-contact {
+    float: none !important;
+    clear: both !important;
+    margin: 0 auto;
+  }
+}

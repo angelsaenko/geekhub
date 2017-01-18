@@ -1,0 +1,45 @@
+@import '../base/typography';
+@import '../themes/theme';
+@import '../base/common';
+@import '../components/single-line-form';
+main {
+  .destinations {
+    .container {
+      padding: 0 150px 104px 147px;
+
+    }
+    .info {
+
+      box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
+      border-radius: 5px;
+      background-color: #fff;
+      position: relative;
+      top: -70px;
+      //line-height: 140px;
+      .item {
+        border-right: 1px solid #717171;
+        text-align: center;
+        padding: 40px 0 40px 0;
+
+        .title{
+          color: #343434;
+          font-family: $font-text;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 22px;
+          text-transform: uppercase;
+
+        }
+        .signature{
+          color: #717171;
+          font-family: $font-text;
+          font-size: 18px;
+          margin-top: 17px;
+        }
+      }
+      .item:last-child {
+        border: none;
+      }
+    }
+  }
+}
