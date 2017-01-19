@@ -1,31 +1,31 @@
 @import '../base/typography';
-.button-contact {
-  background-color: #ffaf36;
-  max-width: 151px;
-  margin-top: 61px;
-  border: 2px solid #ffaf36;
+.button {
+  border-radius: 5px;
+  border: 1px solid rgba(38, 38, 38, 0.3);
+  background-color: rgba(113, 113, 113, 0);
+  line-height: 60px;
+
   a {
-    min-width:84px;
-    padding: 19px 34px 19px 33px;
     display: block;
-    box-sizing: border-box;
-    color: #1c1c1c;
+    text-decoration: none;
+
+    color: #343434;
     font-family: $font-title;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    text-decoration: none;
   }
 }
-@media (max-width: 950px) {
-    .button-contact {
-        margin-top: 30px;
-    }    
-}
-@media (max-width: 550px) {
-  .button-contact {
-    float: none !important;
-    clear: both !important;
-    margin: 0 auto;
-  }
-}
+
+//@media (max-width: 950px) {
+//    .button-contact {
+//        margin-top: 30px;
+//    }
+//}
+//@media (max-width: 550px) {
+//  .button-contact {
+//    float: none !important;
+//    clear: both !important;
+//    margin: 0 auto;
+//  }
+//}

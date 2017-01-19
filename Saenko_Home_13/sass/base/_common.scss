@@ -6,7 +6,7 @@
   display: table;
 }
 
-h1 {
+h1,.title {
   margin-top: 150px;
   text-align: center;
   color: $font-color-base-title;
@@ -17,8 +17,8 @@ h1 {
 
 }
 
-h2 {
-  margin-top: 32px;
+h2,.signature {
+  margin-top: 12px;
   font-family: $font-text;
   text-align: center;
   color: $font-color-base-title;
@@ -30,26 +30,28 @@ h2 {
 
 .title-section {
   h3 {
-    color: #1c1c1c;
+    color: #343435;
     font-family: $font-title;
     font-size: 30px;
-    font-weight: 800;
-    line-height: 24px;
+    font-weight: 400;
     text-transform: uppercase;
+    margin-top: 93px;
+    text-align: center;
   }
-  .signature-title {
-    color: #1c1c1c;
-    font-family: Lora, serif;
+  h4{
+    color: #717171;
+    font-family: $font-text ;
     font-size: 16px;
-    font-style: italic;
-    line-height: 30px;
+    font-weight: 400;
+    margin-top: 18px;
+    text-align: center;
   }
 }
-.descr {
-  color: #585858;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
+//.descr {
+//  color: #585858;
+//  font-size: 14px;
+//  font-weight: 400;
+//  line-height: 1.5;
+//}
+//
 

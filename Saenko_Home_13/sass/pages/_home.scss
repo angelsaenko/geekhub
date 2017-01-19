@@ -2,6 +2,7 @@
 @import '../themes/theme';
 @import '../base/common';
 @import '../components/single-line-form';
+
 main {
   .destinations {
     .container {
@@ -9,19 +10,18 @@ main {
 
     }
     .info {
-
       box-shadow: 0 0 30px rgba(52, 52, 52, 0.15);
       border-radius: 5px;
       background-color: #fff;
-      position: relative;
-      top: -70px;
+      margin-top: -70px;
+      text-align: center;
       //line-height: 140px;
       .item {
         border-right: 1px solid #717171;
         text-align: center;
         padding: 40px 0 40px 0;
 
-        .title{
+        .title {
           color: #343434;
           font-family: $font-text;
           font-size: 30px;
@@ -30,7 +30,7 @@ main {
           text-transform: uppercase;
 
         }
-        .signature{
+        .signature {
           color: #717171;
           font-family: $font-text;
           font-size: 18px;
@@ -41,5 +41,81 @@ main {
         border: none;
       }
     }
+    .locations {
+      .cell {
+        display: inline-block;
+        padding: 15px;
+        float: left;
+      }
+      .cell.double-cell {
+        padding: 13px;
+        max-width: 768px
+      }
+    }
+    .button {
+      margin: 65px auto 0 auto;
+      max-width: 311px;
+      a {
+        padding: 0 43px;
+      }
+
+      /* Small devices (tablets, 768px and up) */
+      //        @media (min-width: 768px) {
+      //            .cell {
+      //                width: 100%;
+      //                float: none;
+      //            }
+      //            .cell.double-cell {
+      //                width: 100%;
+      //            }
+      //
+      //        }
+      //        /* Medium devices (desktops, 992px and up) */
+      //        @media (min-width: 992px) {
+      //            .cell {
+      //                width: 49.5%;
+      //            }
+      //            .cell.double-cell {
+      //                width: 100%;
+      //            }
+      //        }
+      //
+      //        /* Large devices (large desktops, 1200px and up) */
+      //        @media (min-width: 1200px) {
+      //            .cell {
+      //                width: 33%;
+      //            }
+      //            .cell.double-cell {
+      //                width: 66.5%;
+      //            }
+      //        }
+    }
   }
+  .work {
+    background: url("../images/backgorund-section-work.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+      padding: 123px 15px 124px 15px;
+      .title {
+        margin-top: 0;
+      }
+      .signature {
+        margin-top: 0;
+      }
+      .button {
+        max-width: 321px;
+        margin: 85px auto 0 auto;
+        padding: 0 45px;
+        background-color: #e7434e;
+        border: none;
+        a{
+          color: #ffffff;
+        }
+
+      }
+    }
+
+  }
+
 }
