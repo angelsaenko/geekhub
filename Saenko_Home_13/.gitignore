@@ -8,3 +8,4 @@ Thumbs.db
 .idea
 nbproject
 node_modules
+*.zip
