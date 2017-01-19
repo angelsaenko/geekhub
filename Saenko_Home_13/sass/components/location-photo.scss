@@ -1,0 +1,52 @@
+@import '../base/typography';
+@import '../themes/theme';
+@import '../base/common';
+@import '../components/single-line-form';
+.location-photo {
+    position: relative;
+    color: #fff;
+    font-family:$font-text;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    img {
+        width: 100%;
+    }
+    .top-mark {
+        position: absolute;
+        display: inline-block;
+        left: 30px;
+        top: 30px;
+        border-radius: 5px;
+        background-color: #e7434e;
+        line-height: 42px;
+        padding: 0 12px 0 12px;
+    }
+    .top-mark.ship {
+        padding-left: 38px;
+        background-image: url("../images/sailboat-kopia.png");
+        background-repeat: no-repeat;
+        background-position: 12px 47%;
+    }
+    .descr {
+        font-family:$font-title;
+        font-weight: 400;
+        color: #fff;
+        line-height: 1;
+        position: absolute;
+        left: 30px;
+        bottom: 25px;
+        .name {
+            font-size: 30px;
+        }
+        .contry {
+            margin-top: 13px;
+            font-size: 20px;
+        }
+        ul {
+            li {
+
+            }
+        }
+    }
+}
