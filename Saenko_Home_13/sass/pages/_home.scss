@@ -3,10 +3,13 @@
 @import '../base/common';
 @import '../components/single-line-form';
 
+ul {
+  list-style-type: none;
+}
 main {
   .destinations {
     .container {
-      padding: 0 150px 104px 147px;
+      padding: 0 136px 104px 130px;
 
     }
     .info {
@@ -104,18 +107,28 @@ main {
         margin-top: 0;
       }
       .button {
-        max-width: 321px;
+        max-width: 320px;
         margin: 85px auto 0 auto;
-        padding: 0 45px;
         background-color: #e7434e;
         border: none;
-        a{
+        a {
           color: #ffffff;
+          padding: 0 44px 0 44px;
         }
-
       }
     }
-
   }
-
+  .feauterd-boat {
+    .container {
+      padding: 75px 136px 57px 130px;
+    }
+    .title-section {
+      h3 {
+        margin: 0;
+      }
+    }
+  }
 }
+
+
+
