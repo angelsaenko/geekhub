@@ -50,10 +50,8 @@
       li {
         display: inline-block;
         float: left;
-
       }
       a {
-
         text-decoration: none;
         color: #ffffff;
         font-family: $font-text;
@@ -65,7 +63,7 @@
       .map-location {
         background: url("../images/map-marker--1-.png") no-repeat;
         a{
-          padding-left:20px;
+          padding-left: 20px;
           padding-right: 23px;
         }
       }
@@ -73,11 +71,18 @@
         background: url("../images/account-multiple--1-.png") no-repeat;
         a{
           padding-left:30px;
-
         }
-
       }
-
+    }
+  }
+  @media (max-width: 360px) {
+    .top-mark {
+      top: 15px;
+      left: 15px;
+    }
+    .descr{
+      left: 15px;
+      bottom: 15px;
     }
   }
 }
